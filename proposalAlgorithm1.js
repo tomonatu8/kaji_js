@@ -97,10 +97,4 @@ export default function Home() {
   const AliceUtility = [1,2,2,1];
   const BobUtility = [1,4,2,3];
   console.log(AdjustedWinner(AliceUtility,BobUtility));
-  return (
-    <>
-      <h1>家事分担</h1>
-      <h1 style={{backgroundColor: `red`}}>見出し</h1>
-    </>
-  )
 }
